@@ -1,7 +1,7 @@
 FROM kiasaki/alpine-nodejs
 
 #install the app
-ADD . /src
+COPY . /src
 RUN npm install
 
 EXPOSE 3000
