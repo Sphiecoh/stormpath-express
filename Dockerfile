@@ -5,5 +5,4 @@ COPY . /data
 RUN npm install
 
 EXPOSE 3000
-CMD []
-ENTRYPOINT["npm start"]
+CMD ["node","server.js"]
